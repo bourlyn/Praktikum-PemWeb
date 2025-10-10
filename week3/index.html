@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Simentik</title>
+</head>
+<body>
+    <header>
+        <h1>Umran ~ Praktikum Pemweb Pertemuan 3</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>    
+                <li><a href="artikel.html">Artikel</a></li>
+                <li><a href="#kontak">Kontak Me</a></li>         
+            </ul>
+        </nav>
+    </header>
+
+    <div class ="Lagu">
+        <p>Daftar Lagu <span class ="highlight"></span></p>
+        <ul>
+            <li>Easy On Me - Adele <span>[ntah]</span></li>
+            <li>Shivers - Ed Sheeran</li>
+            <li>Ghost - Justin Bieber</li>
+            <li>Heat Waves - Glass Animals</li>
+            <li>Stay - The Kid LAROI & Justin Bieber</li>
+        </ul>
+        <h2>Audio</h2>
+        <!--bisa Combo-->
+        <audio src="BeliCikiBeliKoyo.wav" controls>~uwu~</audio>
+        <audio src="BeliCikiBeliKoyo.wav" autoplay>~uwu~</audio>
+        <audio src="BeliCikiBeliKoyo.wav" loop>~uwu~</audio>
+    </div>
+
+        <div class="Video">
+            <h2>Video</h2>
+            <video src="videocontoh.mp4" controls width="500">~Batu~</video>
+        </div>
+
+    <div id="kontak">
+        <h2>Kontak Me</h2>
+        <form action="#">
+            <table border="1">
+                <tr>
+                    <td>
+                        <label for="nama">Nama Lengkap</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nama" id="nama">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nim" >NIM</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nim" id="nim">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="jk">Jenis Kelamin</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="jk" name="jenis kelamin" value="Laki-laki">Laki-laki
+                        <br>
+                        <input type="radio" id="jk" name="jenis kelamin" value="Perempuan">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Hobi">Hobi</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="hobi" id="hobi">Mengoding</input=>
+                        <br>
+                        <input type="checkbox" name="hobi" id="hobi">Membaca</input=>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Prodi">Program Studi</label>
+                    </td>
+                    <td>
+                        <select name="prodi" id="prodi">
+                            <option value="Informatika">Informatika</option>
+                            <option value="Sistem Informasi">Sistem Informasi</option>
+                            <option value selected="Ilmu Komputer">Ilmu Komputer</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" name="submit" value="Kirim">
+            <input type="reset" name="reset" value="Hapus">
+        </form>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2025 Umran Z</p>
+        <p><a href="#kontak">Kontak</a></p>
+    </footer>
+</body>
+</html>
